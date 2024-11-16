@@ -1,14 +1,28 @@
-This is sample project which demonstrate the concept og chocolate house where customer can give suggestions to maker.
-Steps to build the project 
-Creting project folder then creating virtual environment on  that folder.
-"python -m venv venv"
-"venv/Scripts/activate"
-Install django cammand "pip install django"
-Creating the models in models.py which produces tables in the database.
-Perform migrations to the database
-"python manage.py makemigrations"
-"python manage.py migrate"
-Create Veiws for the models.
-Also direct the
-Attach url to the views
 
+Overview
+A Python application to manage a fictional chocolate house's operations:
+
+Seasonal flavors
+Ingredient inventory.
+Customer suggestions and allergy concerns
+Setup Instructions
+Local Setup
+Clone the repository:
+git clone <repo_url>
+cd project
+Install dependencies:
+pip install django
+python -m venv venv
+venv/Scripts/activate
+Run the application:
+python manage.py runserver
+Access the application at  http://127.0.0.1:8000/.
+API Endpoints
+Seasonal Flavors
+GET /flavors: Get all flavors
+Inventory
+GET /inventory: Get all inventory items
+POST /inventory: Add an inventory item
+Customer Suggestions
+GET /suggestions: Get all suggestions
+POST /suggestions: Add a suggestion
