@@ -3,7 +3,7 @@
 ## Overview
 A Python application to manage a fictional chocolate house's operations:
 - Seasonal flavors
-- Ingredient inventory
+- Ingredient inventory.
 - Customer suggestions and allergy concerns
 
 ## Setup Instructions
